@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dd3a4eac-73d4-4f67-9225-96cae2f0598f" name="Administrator@MSSQLSERVER 2020-06-18 15:13:27" runUser="MSSQLSERVER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8899ada6-f2a4-43d1-a375-1c19b41ffbfc">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestResults\Administrator_MSSQLSERVER 2020-06-18 15_13_27">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="3" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2020-06-18T15:13:27.9220000+02:00" queuing="2020-06-18T15:13:28.7910000+02:00" start="2020-06-18T15:13:29.1050000+02:00" finish="2020-06-18T15:13:31.3540000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Test3_SprawdzenieDodaniaPliku" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="32917399-b40b-8e30-fd01-48dec74d663b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="477beca1-e71c-48cb-9f3f-b22392a0a37f" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test3_SprawdzenieDodaniaPliku" />
+    </UnitTest>
+    <UnitTest name="Test1_SprawdzenieWyszukiwanieUdane" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="03599d75-a54e-266f-e48f-de6bdbe66c16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d0d89838-b5ff-4f35-b0d8-c3c70061f88c" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test1_SprawdzenieWyszukiwanieUdane" />
+    </UnitTest>
+    <UnitTest name="Test2_SprawdzenieWyszukiwanieNieudane" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="a287e5bd-ca5b-465c-88c9-292b6b416ea4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1a5bfd4d-3246-4a46-abb9-be8da19970f2" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test2_SprawdzenieWyszukiwanieNieudane" />
+    </UnitTest>
+    <UnitTest name="Test5_SprawdzenieUsunieciaPlikuZWyszukiwaniem" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="17ac8747-b1fe-b140-5169-698ae1cd2536">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5b7e38f8-bfca-449e-95e1-98aa801cb6ec" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test5_SprawdzenieUsunieciaPlikuZWyszukiwaniem" />
+    </UnitTest>
+    <UnitTest name="Test4_SprawdzenieUsunieciaPliku" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="384a83c6-c2ca-84c3-4f13-c1a47f7d004d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3b88c030-ae8f-4d2c-ad33-7c7286e1e853" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test4_SprawdzenieUsunieciaPliku" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03599d75-a54e-266f-e48f-de6bdbe66c16" executionId="d0d89838-b5ff-4f35-b0d8-c3c70061f88c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17ac8747-b1fe-b140-5169-698ae1cd2536" executionId="5b7e38f8-bfca-449e-95e1-98aa801cb6ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32917399-b40b-8e30-fd01-48dec74d663b" executionId="477beca1-e71c-48cb-9f3f-b22392a0a37f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="384a83c6-c2ca-84c3-4f13-c1a47f7d004d" executionId="3b88c030-ae8f-4d2c-ad33-7c7286e1e853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a287e5bd-ca5b-465c-88c9-292b6b416ea4" executionId="1a5bfd4d-3246-4a46-abb9-be8da19970f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d0d89838-b5ff-4f35-b0d8-c3c70061f88c" testId="03599d75-a54e-266f-e48f-de6bdbe66c16" testName="Test1_SprawdzenieWyszukiwanieUdane" computerName="MSSQLSERVER" duration="00:00:00.1661666" startTime="2020-06-18T15:13:29.1760000+02:00" endTime="2020-06-18T15:13:29.6180000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b7e38f8-bfca-449e-95e1-98aa801cb6ec" testId="17ac8747-b1fe-b140-5169-698ae1cd2536" testName="Test5_SprawdzenieUsunieciaPlikuZWyszukiwaniem" computerName="MSSQLSERVER" duration="00:00:00.0226737" startTime="2020-06-18T15:13:29.6250000+02:00" endTime="2020-06-18T15:13:29.6560000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test5_SprawdzenieUsunieciaPlikuZWyszukiwaniem threw exception:  System.Data.SqlClient.SqlException: Syntax error near 'TestowegoDokumentu1' in the full-text search condition 'Zawartość TestowegoDokumentu1'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w CLOB.CLOB.deleteDocumentWith(String textToFind) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 72
+   w TestProject1.Testy.Test5_SprawdzenieUsunieciaPlikuZWyszukiwaniem() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="477beca1-e71c-48cb-9f3f-b22392a0a37f" testId="32917399-b40b-8e30-fd01-48dec74d663b" testName="Test3_SprawdzenieDodaniaPliku" computerName="MSSQLSERVER" duration="00:00:00.0022057" startTime="2020-06-18T15:13:29.6600000+02:00" endTime="2020-06-18T15:13:29.6660000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b88c030-ae8f-4d2c-ad33-7c7286e1e853" testId="384a83c6-c2ca-84c3-4f13-c1a47f7d004d" testName="Test4_SprawdzenieUsunieciaPliku" computerName="MSSQLSERVER" duration="00:00:00.0102413" startTime="2020-06-18T15:13:29.6700000+02:00" endTime="2020-06-18T15:13:29.6910000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test4_SprawdzenieUsunieciaPliku threw exception:  System.Data.SqlClient.SqlException: Incorrect syntax near '='..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   w System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   w CLOB.CLOB.deleteDocument(String name) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 96
+   w TestProject1.Testy.Test4_SprawdzenieUsunieciaPliku() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a5bfd4d-3246-4a46-abb9-be8da19970f2" testId="a287e5bd-ca5b-465c-88c9-292b6b416ea4" testName="Test2_SprawdzenieWyszukiwanieNieudane" computerName="MSSQLSERVER" duration="00:00:00.0013626" startTime="2020-06-18T15:13:29.6950000+02:00" endTime="2020-06-18T15:13:29.6990000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

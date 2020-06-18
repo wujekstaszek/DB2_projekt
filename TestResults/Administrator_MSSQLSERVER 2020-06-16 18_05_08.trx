@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="81771dcc-98b7-455d-8b17-6faf481d45c2" name="Administrator@MSSQLSERVER 2020-06-16 18:05:08" runUser="MSSQLSERVER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8899ada6-f2a4-43d1-a375-1c19b41ffbfc">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestResults\Administrator_MSSQLSERVER 2020-06-16 18_05_08">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2020-06-16T18:05:08.5703363+02:00" queuing="2020-06-16T18:05:09.0473363+02:00" start="2020-06-16T18:05:09.2313363+02:00" finish="2020-06-16T18:05:09.6943363+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Test3_SprawdzenieDodaniaPliku" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="32917399-b40b-8e30-fd01-48dec74d663b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0249b0cc-ffbe-44a1-8535-e4c50b339a27" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test3_SprawdzenieDodaniaPliku" />
+    </UnitTest>
+    <UnitTest name="Test1_SprawdzenieWyszukiwanieUdane" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="03599d75-a54e-266f-e48f-de6bdbe66c16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7d8ca989-5be2-47a6-8c0d-c1fbe4978a93" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test1_SprawdzenieWyszukiwanieUdane" />
+    </UnitTest>
+    <UnitTest name="Test2_SprawdzenieWyszukiwanieNieudane" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="a287e5bd-ca5b-465c-88c9-292b6b416ea4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9d77a89e-a7d4-4427-99b7-be8e07fd2f7d" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test2_SprawdzenieWyszukiwanieNieudane" />
+    </UnitTest>
+    <UnitTest name="Test4_SprawdzenieUsunieciaPliku" storage="c:\users\administrator\documents\visual studio 2008\projects\consoleapplication3\testproject1\bin\release\testproject1.dll" id="384a83c6-c2ca-84c3-4f13-c1a47f7d004d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ade02a6c-e177-466b-93a1-145ec95f9dca" />
+      <TestMethod codeBase="C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\bin\Release\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Testy, TestProject1" name="Test4_SprawdzenieUsunieciaPliku" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03599d75-a54e-266f-e48f-de6bdbe66c16" executionId="7d8ca989-5be2-47a6-8c0d-c1fbe4978a93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32917399-b40b-8e30-fd01-48dec74d663b" executionId="0249b0cc-ffbe-44a1-8535-e4c50b339a27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="384a83c6-c2ca-84c3-4f13-c1a47f7d004d" executionId="ade02a6c-e177-466b-93a1-145ec95f9dca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a287e5bd-ca5b-465c-88c9-292b6b416ea4" executionId="9d77a89e-a7d4-4427-99b7-be8e07fd2f7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d8ca989-5be2-47a6-8c0d-c1fbe4978a93" testId="03599d75-a54e-266f-e48f-de6bdbe66c16" testName="Test1_SprawdzenieWyszukiwanieUdane" computerName="MSSQLSERVER" duration="00:00:00.0516011" startTime="2020-06-16T18:05:09.2793363+02:00" endTime="2020-06-16T18:05:09.4723363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test1_SprawdzenieWyszukiwanieUdane threw exception:  System.Data.SqlClient.SqlException: Must declare the table variable "@table"..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w CLOB.CLOB.find(String textToFind) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 40
+   w TestProject1.Testy.Test1_SprawdzenieWyszukiwanieUdane() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0249b0cc-ffbe-44a1-8535-e4c50b339a27" testId="32917399-b40b-8e30-fd01-48dec74d663b" testName="Test3_SprawdzenieDodaniaPliku" computerName="MSSQLSERVER" duration="00:00:00.0353005" startTime="2020-06-16T18:05:09.4793363+02:00" endTime="2020-06-16T18:05:09.5263363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test3_SprawdzenieDodaniaPliku threw exception:  System.InvalidOperationException: Element ExecuteNonQuery wymaga otwartego i dostępnego połączenia. Obecny stan połączenia: zamknięte..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   w System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   w System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   w System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   w System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   w CLOB.CLOB.addDocument(String path, String name) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 55
+   w TestProject1.Testy.Test3_SprawdzenieDodaniaPliku() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ade02a6c-e177-466b-93a1-145ec95f9dca" testId="384a83c6-c2ca-84c3-4f13-c1a47f7d004d" testName="Test4_SprawdzenieUsunieciaPliku" computerName="MSSQLSERVER" duration="00:00:00.0019563" startTime="2020-06-16T18:05:09.5313363+02:00" endTime="2020-06-16T18:05:09.5403363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test4_SprawdzenieUsunieciaPliku threw exception:  System.InvalidOperationException: Element ExecuteReader wymaga otwartego i dostępnego połączenia. Obecny stan połączenia: zamknięte..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   w System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   w System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w CLOB.CLOB.deleteDocument(String textToFind) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 73
+   w TestProject1.Testy.Test4_SprawdzenieUsunieciaPliku() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d77a89e-a7d4-4427-99b7-be8e07fd2f7d" testId="a287e5bd-ca5b-465c-88c9-292b6b416ea4" testName="Test2_SprawdzenieWyszukiwanieNieudane" computerName="MSSQLSERVER" duration="00:00:00.0021571" startTime="2020-06-16T18:05:09.5413363+02:00" endTime="2020-06-16T18:05:09.5463363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Testy.Test2_SprawdzenieWyszukiwanieNieudane threw exception:  System.Data.SqlClient.SqlException: Must declare the table variable "@table"..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w CLOB.CLOB.find(String textToFind) w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\ConsoleApplication3\CLOB.cs:wiersz 40
+   w TestProject1.Testy.Test2_SprawdzenieWyszukiwanieNieudane() w C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ConsoleApplication3\TestProject1\Testy.cs:wiersz 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
